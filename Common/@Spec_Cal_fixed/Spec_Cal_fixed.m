@@ -1,4 +1,4 @@
-classdef Spec_Cal_fixed < Simplex_SpecCal & Simplex_LinEmiss
+classdef Spec_Cal_fixed < Spec_Cal & Spec_LinEmiss
     properties
         FOVmod (1,:) double
     end

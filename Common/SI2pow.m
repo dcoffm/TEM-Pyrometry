@@ -1,6 +1,8 @@
 function out = SI2pow(varargin)
 % For an power setting (SI) value between 0 and 1000
 % gives the laser output, either normalized or in watts (2nd argument for system rated power)
+% (This is for the SPI G4 IR laser syststem, empirically derived from measured outputs)
+
 SI = varargin{1};
 powerScale = 1;
 if nargin==2

@@ -1,0 +1,303 @@
+NEWNOTE: TEXT
+  0:00   (0)
+	Initial mirror position: 486, 435
+
+
+NEWNOTE: TEMINFO
+  0:04   (4085)
+	Goniometer X:  -480
+	Goniometer Y:   628
+	Goniometer Z:  -199
+	Gon.  Tilt X:  10.8
+	Gon.  Tilt Y:   0.0
+	Focus Delta :     0
+	IGP Reading :    30
+
+
+NEWNOTE: TEXT
+  1:33   (93949)
+	Gradual drift in spectrometer temperature causes a shift in dark current and ADC offset. 
+	Manifests as a ~2e-5 CPS shift over the time I spent setting up initial diffraction pattern 
+	conditions.
+
+
+NEWNOTE: TEXT
+  3:01   (181686)
+	Before experiment started, set up diffraction conditions and captured initial realspace and 
+	DP, as well as the kikuchi pattern for fun. Was not exactly centered in kikuchi, which gave 
+	better intensity distribution on diffraction spots.
+
+
+NEWNOTE: TEXT
+  4:13   (253646)
+	Capturing some initial dark spectra for reference in post processing. Initial ADC offset is 2466.0
+	
+	
+
+
+NEWNOTE: MICROGRAPH
+  7:52   (472711)
+	[F] initial realspace
+
+
+NEWNOTE: TEXT
+  8:35   (515543)
+	15kx and 25 cm for mag/camera length for this experiment.
+
+
+NEWNOTE: MICROGRAPH
+ 10:37   (637903)
+	[G]
+
+
+NEWNOTE: MICROGRAPH
+ 13:29   (809551)
+	[H]
+	DP with very low laser power.
+
+
+NEWNOTE: TEXT
+ 14:06   (846191)
+	Not sure if laser is aligned well, but sample expands with SI 75.
+
+
+NEWNOTE: TEXT
+ 16:39   (999378)
+	I will do the heating series assuming it is reasonably aligned, even though this tilt is new. If it 
+	doesn't get very hot or undego any transitions we can revisit alignment.
+
+
+NEWNOTE: MICROGRAPH
+ 19:06   (1146193)
+	[L] si 85
+
+
+NEWNOTE: MICROGRAPH
+ 22:18   (1338561)
+	[M] SI 90
+
+
+NEWNOTE: MICROGRAPH
+ 27:26   (1646859)
+	[N] SI 105 DP
+
+
+NEWNOTE: TEXT
+ 28:17   (1697275)
+	As the sample heats up, the direct beam spot has shifted, so the blocker also need to be 
+	shuifted to avoid burning the CCD
+
+
+NEWNOTE: TEXT
+ 35:44   (2144820)
+	Did a brief laser on/off thing to check expansion behavior. Seems reasonably aligned. Also 
+	moved the SAD aperture during this process.
+
+
+NEWNOTE: MICROGRAPH
+ 37:12   (2232469)
+	[O] DP at 115
+
+
+NEWNOTE: TEXT
+ 38:24   (2304045)
+	At this point the dark-subtracted CPS has drifted by +3e-5. Whether laser or temp, it's hard to 
+	say. TEC reading is of course too insensitive to help.
+
+
+NEWNOTE: TEXT
+ 40:36   (2436654)
+	Shifting from 115 to 120 did make a visible shift in background cps, so it's probably a 
+	combination. The corner cam CPS is also larger than normal (1e-6 to 2 e-4).  That might mean 
+	it's saturated...
+
+
+NEWNOTE: MICROGRAPH
+ 41:31   (2491733)
+	[Q] DP for 120
+
+
+NEWNOTE: TEXT
+ 46:00   (2760414)
+	Checking z-wobble, seems like thermal expansion has driven sample out of focus. What does 
+	this mean for strain calculation from DP?  Refocused in realspace.
+
+
+NEWNOTE: MICROGRAPH
+ 46:39   (2799902)
+	[S] DP for SI 125
+
+
+NEWNOTE: MICROGRAPH
+ 48:29   (2909671)
+	[T] Realspace for SI 125. Note: sample is visibly moving due to laser oscillation.
+
+
+NEWNOTE: TEXT
+ 52:02   (3122823)
+	S & T micrographs: sclaebars should be switched. The camera is in the state where you 
+	manually enter conditions and I mistakenly thoguht secnd entry applied to the active view...
+
+
+NEWNOTE: TEMINFO
+ 52:35   (3155416)
+	Goniometer X:  -486
+	Goniometer Y:   631
+	Goniometer Z:  -199
+	Gon.  Tilt X:  10.8
+	Gon.  Tilt Y:   0.0
+	Focus Delta :     0
+	IGP Reading :    35
+
+
+NEWNOTE: TEXT
+ 54:17   (3257871)
+	stopped briefly to add a bit of LN2 to the tank
+
+
+NEWNOTE: MICROGRAPH
+ 56:16   (3376984)
+	[U] DP for SI 130
+
+
+NEWNOTE: TEXT
+ 59:48   (3588777)
+	Spectrum was visibly warm on initial shift to 135, then seems to have lost its shape... will 
+	switch to continuous recording of spectra now.
+
+
+NEWNOTE: MICROGRAPH
+ 60:33   (3633633)
+	[V] DP for 135
+
+
+NEWNOTE: MICROGRAPH
+ 62:51   (3771626)
+	[W] DP for 140
+
+
+NEWNOTE: MICROGRAPH
+ 65:10   (3910017)
+	[X] DP for 145
+
+
+NEWNOTE: TEMINFO
+ 65:42   (3942778)
+	Goniometer X:  -487
+	Goniometer Y:   633
+	Goniometer Z:  -199
+	Gon.  Tilt X:  10.8
+	Gon.  Tilt Y:   0.0
+	Focus Delta :     0
+	IGP Reading :    40
+
+
+NEWNOTE: MICROGRAPH
+ 69:50   (4190475)
+	[Y] DP for 150. Refocused a bit. DP now has more visible spots to the north.
+
+
+NEWNOTE: MICROGRAPH
+ 72:18   (4338459)
+	[Z] DP for 155
+
+
+NEWNOTE: TEXT
+ 74:03   (4443067)
+	[AA] DP for 160
+
+
+NEWNOTE: TEMINFO
+ 74:48   (4488932)
+	Goniometer X:  -489
+	Goniometer Y:   634
+	Goniometer Z:  -199
+	Gon.  Tilt X:  10.8
+	Gon.  Tilt Y:   0.0
+	Focus Delta :     0
+	IGP Reading :    41
+
+
+NEWNOTE: MICROGRAPH
+ 76:51   (4611646)
+	[AB] DP for 165
+
+
+NEWNOTE: MICROGRAPH
+ 78:31   (4711141)
+	[AC] DP for 170
+
+
+NEWNOTE: MICROGRAPH
+ 80:56   (4856069)
+	[AD] DP for 175
+
+
+NEWNOTE: MICROGRAPH
+ 84:13   (5053654)
+	[AE] DP for 180
+
+
+NEWNOTE: MICROGRAPH
+ 87:29   (5249742)
+	[AF] Realspace for 185. (Crappy becausr it moves around...)
+
+
+NEWNOTE: TEXT
+ 90:20   (5420055)
+	harder to keep ROI in SAD aperture. IGP reading is also more elevated: 56. Maybe carbon paste 
+	is curing?
+
+
+NEWNOTE: TEXT
+ 92:51   (5571304)
+	The longer it sits at temperature, the more stable it becomes; IGP also fell back down to 52, 
+	51, so perhaps this is the exhaustion of local carbon paste curing...
+
+
+NEWNOTE: MICROGRAPH
+ 94:04   (5644529)
+	[AG] Attempt to capture another realspace image at SI 185
+
+
+NEWNOTE: TEXT
+ 95:17   (5717968)
+	IGP continues to fall (47)
+
+
+NEWNOTE: TEMINFO
+ 95:41   (5741912)
+	Goniometer X:  -484
+	Goniometer Y:   639
+	Goniometer Z:  -199
+	Gon.  Tilt X:  10.8
+	Gon.  Tilt Y:   0.0
+	Focus Delta :     0
+	IGP Reading :    47
+
+
+NEWNOTE: MICROGRAPH
+ 98:15   (5895673)
+	[AH] DP for 190
+
+
+NEWNOTE: TEXT
+100:08   (6008737)
+	Vaporizing....
+
+
+NEWNOTE: TEXT
+123:55   (7435077)
+	The sample was visibly vaporizing in the low mag view. (seemed to be centered to the "left" of 
+	ROI based on the brief evaporation I saw. I also translated a bit to makme sure I was seeing 
+	vaporisatoin. Cooled the laser down incrementally; the spectrum eventually came back within 
+	 saturation limits at 1s integration time. Re-found the ROI, it was destroyed (Not so badly that 
+	I couldn't recognize the general shape, but my particular crystal was gone.) Found a little 
+	asperity and tried capturing a DP vaguely close to a kikuchi line.
+
+
+NEWNOTE: MICROGRAPH
+125:39   (7539958)
+	[AI] post-mortem DP of some random asperity.
+
+
